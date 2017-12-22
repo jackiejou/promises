@@ -26,7 +26,7 @@ var writeToFile = function(path, data) {
 };
 
 var fetchProfileAndWriteToFile = function(readFilePath, writeFilePath) {
-  // TODO
+  // TODOgit
 
   // read from readFile
   return pluckFirstLine(readFilePath)
@@ -47,3 +47,5 @@ var fetchProfileAndWriteToFile = function(readFilePath, writeFilePath) {
 module.exports = {
   fetchProfileAndWriteToFile: fetchProfileAndWriteToFile
 };
+
+ 
